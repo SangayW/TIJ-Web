@@ -1,5 +1,6 @@
 body {
-    padding-top: 70px;
+    width:100%;
+    background-color: #f8f8f8;
 }
 
 /* Replacement for `body { background-attachment: fixed; }`, which has
@@ -18,7 +19,7 @@ body::before {
 }
 
 body > .container {
-    min-height: 100vh;
+    min-height: 70%;
 }
 
 ul.nav .main {
@@ -122,7 +123,6 @@ footer {
     margin-bottom: 10px;
     text-align: center;
     font-weight: 200;
-    background-color: #000;
 }
 
 .modal-dialog {
@@ -313,3 +313,27 @@ h1:hover .headerlink, h2:hover .headerlink, h3:hover .headerlink, h4:hover .head
 .navbar-custom { 
     background-color: #008080; 
 } 
+.carousel {
+    position: relative;
+    width: 100%;
+}
+.slide-image{
+    width:100%;
+    height: 500px;
+}
+.icon-instagram
+{
+    color: rgba(202, 34, 119, 0.5);
+}
+.icon-youtube
+{
+    color: #f75c61;
+}
+
+.inline div{
+    float: right;
+    clear:none;
+}
+.important-links{
+    list-style-type: none;
+}
