@@ -2,6 +2,7 @@ site_name: TIJ
 nav:
     - Home: index.md
     - About: 
+      - Background: background.md
       - Vision: about.md
       - Mission: mission.md
     - Service: service.md
